@@ -11,7 +11,7 @@ export default async function postsPage() {
 				{posts.map((post) => (
 					<li key={post.id}
 						className="flex items-center justify-between px-5">
-						<Link href={`/posts${post.id}`}>
+						<Link href={`/posts/${post.id}`}>
 							{post.title}
 						</Link>
 					</li>
